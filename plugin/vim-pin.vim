@@ -6,4 +6,4 @@ if exists("g:loaded_vim_pin")
 endif
 let g:loaded_vim_pin = 1
 
-command! -nargs=0 PinLine call vim-pin#PinLine()
+command! -nargs=? PinLine call vimpin#PinLine(<args>)
