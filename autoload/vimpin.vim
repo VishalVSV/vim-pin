@@ -1,4 +1,3 @@
-echom "Test"
 " Pin function
 function! vimpin#PinLine(N = 1) abort 
     execute a:N "sp"
